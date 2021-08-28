@@ -114,6 +114,7 @@ d3.csv("assets/data/data.csv").then(function(data) {
 
 function visualize(theData) {
  
+  var curX = "poverty";
   var curY = "obesity";
 
   var xMin;
@@ -335,3 +336,4 @@ function visualize(theData) {
           }
         }
       });
+    }
